@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "cypress": "^12.8.1",
+    "cypress-mochawesome-reporter": "^3.3.0"
+  },
+  "name": "automation_armcare",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "cypress-iframe": "^1.0.1",
+    "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "cy:open": "cypress open"
+  },
+  "author": "Simon Gerula",
+  "license": "ISC",
+  "description": ""
+}
