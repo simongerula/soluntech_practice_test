@@ -28,6 +28,8 @@ Install the dependencies using the command: npm install
 
 To open the Cypress Test Runner, use the command: npm run cy:open
 
+To run the test headless, use the command: npm run cy:run
+
 ### Dependencies
 
 Cypress: ^12.8.1
