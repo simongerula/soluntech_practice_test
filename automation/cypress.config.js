@@ -4,6 +4,7 @@ module.exports = defineConfig({
   e2e: {
     experimentalOriginDependencies: true,
     setupNodeEvents(on, config) {
+      require('cypress-mochawesome-reporter/plugin')(on)
     },
   },
   reporter: 'cypress-mochawesome-reporter',
@@ -17,7 +18,7 @@ module.exports = defineConfig({
     URL: 'https://armcareqaweb.soluntech.com/',
     NEW_ACCOUNT_FIRST_NAME: 'Simon',
     NEW_ACCOUNT_LAST_NAME: 'Cypress',
-    NEW_ACCOUNT_EMAIL: 'smg1@yopmail.com',
+    NEW_ACCOUNT_EMAIL: 'smg0009@yopmail.com',
     NEW_ACCOUNT_PASSWORD: 'Pass1234!',
     CARD_NUMBER: '4242424242424242',
     CARD_EXPIRY: '08/25',
@@ -29,7 +30,7 @@ module.exports = defineConfig({
     PLAYER_PASSWORD: '1',
     NEW_PLAYER_FIRST_NAME: 'simon',
     NEW_PLAYER_LAST_NAME: 'ggg',
-    NEW_PLAYER_EMAIL: 'smgf1@yopmail.com',
+    NEW_PLAYER_EMAIL: 'smg0010@yopmail.com',
     ORGANIZATION_EMAIL: 'admincentenario1@yopmail.com',
     ORGANIZATION_PASSWORD: 'armcare',
     WRONG_PASSWORD: 'wrongPassword',

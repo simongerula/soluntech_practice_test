@@ -11,7 +11,9 @@
     "mocha": "^10.2.0"
   },
   "scripts": {
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "cy:run": "./node_modules/.bin/cypress run",
+    "cy:run:headed": "./node_modules/.bin/cypress run --headed"
   },
   "author": "Simon Gerula",
   "license": "ISC",

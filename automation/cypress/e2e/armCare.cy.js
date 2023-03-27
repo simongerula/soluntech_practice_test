@@ -38,7 +38,7 @@ describe('ArmCare - Credentials', () => {
     // Workaround ends
   })
 
-  it.only('ACC-02 - Forgot Password', () => {
+  it('ACC-02 - Forgot Password', () => {
 
     LoginPage.clickForgotPasswordButton()
     LoginPage.typeEmail(Cypress.env("ACCOUNT_FPASSWORD_EMAIL"))
