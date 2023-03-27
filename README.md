@@ -12,6 +12,10 @@ A test suite was created with test cases for the following scenarios:
 ### 2. Bug report (bug_reports folder)
 Report of 5 issues on the website https://armcareqaweb.soluntech.com/login
 
+The evidence was uploaded to the evidence folder to keep the .xlsx files simple.
+
+If required, this can be migrated to an online board such as Trello/Jira/AzureDevOps.
+
 ### 3. Automation (automation folder)
 Automation of test cases created in step 1, using Cypress 12 + POM. 
 Additionally, cypress-mochawesome-reporter is used to generate an HTML report.
